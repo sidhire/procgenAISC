@@ -272,11 +272,11 @@ class CoinRun : public BasicAbstractGame {
         choose_random_theme(ent);
     }
 
-    void generate_coin(bool randomize_goal) {
+    void generate_coin(bool randomize_goal_renamed) {
         int RAND_COIN;
         int FIXED_COIN;
 
-        if (randomize_goal) {
+        if (randomize_goal_renamed) {
             RAND_COIN = GOAL;
             FIXED_COIN = INVISIBLE_GOAL;
         } else {

@@ -7,7 +7,7 @@
 
 const std::string NAME = "heist_aisc_many_keys";
 
-const float COMPLETION_BONUS = 10.0f;
+// const float COMPLETION_BONUS = 10.0f;
 
 const int LOCKED_DOOR = 1;
 const int KEY = 2;

@@ -6,7 +6,7 @@ const std::string NAME = "maze_yellowline";
 const float REWARD = 10.0;
 
 const int GOAL = 2;
-const int ARROW = 3;
+// const int ARROW = 3;
 
 class MazeYellowLine : public BasicAbstractGame {
   public:
